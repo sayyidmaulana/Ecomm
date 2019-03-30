@@ -15,6 +15,15 @@
 		04A1A16B224FB117007C442C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A1A169224FB117007C442C /* LaunchScreen.storyboard */; };
 		04A1A176224FB118007C442C /* TokoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A175224FB118007C442C /* TokoTests.swift */; };
 		04A1A181224FB118007C442C /* TokoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A180224FB118007C442C /* TokoUITests.swift */; };
+		04A1A192224FB182007C442C /* SearchFilter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1A191224FB182007C442C /* SearchFilter.xib */; };
+		04A1A194224FB190007C442C /* SearchFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A193224FB190007C442C /* SearchFilter.swift */; };
+		04A1A196224FB1F3007C442C /* FilterNextPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1A195224FB1F3007C442C /* FilterNextPage.xib */; };
+		04A1A198224FB203007C442C /* FilterNextPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A197224FB203007C442C /* FilterNextPage.swift */; };
+		04A1A19A224FB21F007C442C /* FilterAnotherPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1A199224FB21F007C442C /* FilterAnotherPage.xib */; };
+		04A1A19C224FB231007C442C /* FilterAnotherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A19B224FB231007C442C /* FilterAnotherPage.swift */; };
+		04A1A19F224FD38D007C442C /* MainFilter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1A19E224FD38D007C442C /* MainFilter.xib */; };
+		04A1A1A1224FD39D007C442C /* MainFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A1A0224FD39D007C442C /* MainFilter.swift */; };
+		AFDB2EB4E32309267A4C784B /* Pods_Toko.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1F8A0B378708761E2F79D6 /* Pods_Toko.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,17 @@
 		04A1A17C224FB118007C442C /* TokoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A1A180224FB118007C442C /* TokoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoUITests.swift; sourceTree = "<group>"; };
 		04A1A182224FB118007C442C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A1A191224FB182007C442C /* SearchFilter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchFilter.xib; sourceTree = "<group>"; };
+		04A1A193224FB190007C442C /* SearchFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFilter.swift; sourceTree = "<group>"; };
+		04A1A195224FB1F3007C442C /* FilterNextPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterNextPage.xib; sourceTree = "<group>"; };
+		04A1A197224FB203007C442C /* FilterNextPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterNextPage.swift; sourceTree = "<group>"; };
+		04A1A199224FB21F007C442C /* FilterAnotherPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterAnotherPage.xib; sourceTree = "<group>"; };
+		04A1A19B224FB231007C442C /* FilterAnotherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnotherPage.swift; sourceTree = "<group>"; };
+		04A1A19E224FD38D007C442C /* MainFilter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainFilter.xib; sourceTree = "<group>"; };
+		04A1A1A0224FD39D007C442C /* MainFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFilter.swift; sourceTree = "<group>"; };
+		53F788D81581F250E2A2FCC2 /* Pods-Toko.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toko.release.xcconfig"; path = "Target Support Files/Pods-Toko/Pods-Toko.release.xcconfig"; sourceTree = "<group>"; };
+		6D1F8A0B378708761E2F79D6 /* Pods_Toko.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Toko.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02290F3978DAE72F9D8076A /* Pods-Toko.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Toko.debug.xcconfig"; path = "Target Support Files/Pods-Toko/Pods-Toko.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDB2EB4E32309267A4C784B /* Pods_Toko.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				04A1A174224FB118007C442C /* TokoTests */,
 				04A1A17F224FB118007C442C /* TokoUITests */,
 				04A1A15B224FB10C007C442C /* Products */,
+				9497DFCF09A94BBE00E5D95A /* Pods */,
+				A42194877A519840EAD0F897 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +122,7 @@
 		04A1A15C224FB10C007C442C /* Toko */ = {
 			isa = PBXGroup;
 			children = (
+				04A1A18E224FB130007C442C /* Modules */,
 				04A1A15D224FB10C007C442C /* AppDelegate.swift */,
 				04A1A15F224FB10C007C442C /* ViewController.swift */,
 				04A1A161224FB10C007C442C /* Main.storyboard */,
@@ -128,6 +152,86 @@
 			path = TokoUITests;
 			sourceTree = "<group>";
 		};
+		04A1A18E224FB130007C442C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				04A1A190224FB164007C442C /* Model */,
+				04A1A18F224FB15B007C442C /* View */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		04A1A18F224FB15B007C442C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04A1A1A5224FD47D007C442C /* Third Page */,
+				04A1A1A4224FD469007C442C /* Second Page */,
+				04A1A1A2224FD440007C442C /* First Page */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04A1A190224FB164007C442C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04A1A19D224FD351007C442C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				04A1A191224FB182007C442C /* SearchFilter.xib */,
+				04A1A193224FB190007C442C /* SearchFilter.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		04A1A1A2224FD440007C442C /* First Page */ = {
+			isa = PBXGroup;
+			children = (
+				04A1A19E224FD38D007C442C /* MainFilter.xib */,
+				04A1A1A0224FD39D007C442C /* MainFilter.swift */,
+				04A1A19D224FD351007C442C /* Components */,
+			);
+			path = "First Page";
+			sourceTree = "<group>";
+		};
+		04A1A1A4224FD469007C442C /* Second Page */ = {
+			isa = PBXGroup;
+			children = (
+				04A1A195224FB1F3007C442C /* FilterNextPage.xib */,
+				04A1A197224FB203007C442C /* FilterNextPage.swift */,
+			);
+			path = "Second Page";
+			sourceTree = "<group>";
+		};
+		04A1A1A5224FD47D007C442C /* Third Page */ = {
+			isa = PBXGroup;
+			children = (
+				04A1A199224FB21F007C442C /* FilterAnotherPage.xib */,
+				04A1A19B224FB231007C442C /* FilterAnotherPage.swift */,
+			);
+			path = "Third Page";
+			sourceTree = "<group>";
+		};
+		9497DFCF09A94BBE00E5D95A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C02290F3978DAE72F9D8076A /* Pods-Toko.debug.xcconfig */,
+				53F788D81581F250E2A2FCC2 /* Pods-Toko.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A42194877A519840EAD0F897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D1F8A0B378708761E2F79D6 /* Pods_Toko.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A1A185224FB118007C442C /* Build configuration list for PBXNativeTarget "Toko" */;
 			buildPhases = (
+				93758323E054C29A98D841D4 /* [CP] Check Pods Manifest.lock */,
 				04A1A156224FB10C007C442C /* Sources */,
 				04A1A157224FB10C007C442C /* Frameworks */,
 				04A1A158224FB10C007C442C /* Resources */,
+				59C3CFA1E172D5897C3BB5FB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +338,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A1A19A224FB21F007C442C /* FilterAnotherPage.xib in Resources */,
+				04A1A19F224FD38D007C442C /* MainFilter.xib in Resources */,
 				04A1A16B224FB117007C442C /* LaunchScreen.storyboard in Resources */,
+				04A1A192224FB182007C442C /* SearchFilter.xib in Resources */,
+				04A1A196224FB1F3007C442C /* FilterNextPage.xib in Resources */,
 				04A1A168224FB117007C442C /* Assets.xcassets in Resources */,
 				04A1A163224FB10C007C442C /* Main.storyboard in Resources */,
 			);
@@ -254,12 +364,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59C3CFA1E172D5897C3BB5FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Toko/Pods-Toko-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Toko/Pods-Toko-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93758323E054C29A98D841D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Toko-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04A1A156224FB10C007C442C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A1A19C224FB231007C442C /* FilterAnotherPage.swift in Sources */,
+				04A1A198224FB203007C442C /* FilterNextPage.swift in Sources */,
+				04A1A1A1224FD39D007C442C /* MainFilter.swift in Sources */,
 				04A1A166224FB10C007C442C /* Toko.xcdatamodeld in Sources */,
+				04A1A194224FB190007C442C /* SearchFilter.swift in Sources */,
 				04A1A160224FB10C007C442C /* ViewController.swift in Sources */,
 				04A1A15E224FB10C007C442C /* AppDelegate.swift in Sources */,
 			);
@@ -432,6 +589,7 @@
 		};
 		04A1A186224FB118007C442C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C02290F3978DAE72F9D8076A /* Pods-Toko.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +607,7 @@
 		};
 		04A1A187224FB118007C442C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53F788D81581F250E2A2FCC2 /* Pods-Toko.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
