@@ -23,7 +23,7 @@
 		04A1A19C224FB231007C442C /* FilterAnotherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A19B224FB231007C442C /* FilterAnotherPage.swift */; };
 		04A1A19F224FD38D007C442C /* MainFilter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A1A19E224FD38D007C442C /* MainFilter.xib */; };
 		04A1A1A1224FD39D007C442C /* MainFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1A1A0224FD39D007C442C /* MainFilter.swift */; };
-		04B2B67922508AB000A6BB45 /* TokoSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2B67822508AB000A6BB45 /* TokoSevice.swift */; };
+		04B2B67922508AB000A6BB45 /* TokoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2B67822508AB000A6BB45 /* TokoService.swift */; };
 		04B2B67B2250C1D000A6BB45 /* HeaderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2B67A2250C1D000A6BB45 /* HeaderResponse.swift */; };
 		04B2B67D2250D6FB00A6BB45 /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2B67C2250D6FB00A6BB45 /* StatusResponse.swift */; };
 		04B2B67F2250DA9F00A6BB45 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2B67E2250DA9F00A6BB45 /* DataResponse.swift */; };
@@ -71,7 +71,7 @@
 		04A1A19B224FB231007C442C /* FilterAnotherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterAnotherPage.swift; sourceTree = "<group>"; };
 		04A1A19E224FD38D007C442C /* MainFilter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainFilter.xib; sourceTree = "<group>"; };
 		04A1A1A0224FD39D007C442C /* MainFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFilter.swift; sourceTree = "<group>"; };
-		04B2B67822508AB000A6BB45 /* TokoSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoSevice.swift; sourceTree = "<group>"; };
+		04B2B67822508AB000A6BB45 /* TokoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokoService.swift; sourceTree = "<group>"; };
 		04B2B67A2250C1D000A6BB45 /* HeaderResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderResponse.swift; sourceTree = "<group>"; };
 		04B2B67C2250D6FB00A6BB45 /* StatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
 		04B2B67E2250DA9F00A6BB45 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
@@ -233,7 +233,7 @@
 		04B2B67722506FC900A6BB45 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				04B2B67822508AB000A6BB45 /* TokoSevice.swift */,
+				04B2B67822508AB000A6BB45 /* TokoService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -446,7 +446,7 @@
 				04A1A160224FB10C007C442C /* ViewController.swift in Sources */,
 				04A1A15E224FB10C007C442C /* AppDelegate.swift in Sources */,
 				04B2B67D2250D6FB00A6BB45 /* StatusResponse.swift in Sources */,
-				04B2B67922508AB000A6BB45 /* TokoSevice.swift in Sources */,
+				04B2B67922508AB000A6BB45 /* TokoService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
