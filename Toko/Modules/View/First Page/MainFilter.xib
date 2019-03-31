@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainFilter" customModule="Toko" customModuleProvider="target">
             <connections>
+                <outlet property="buttonAdd" destination="fDX-Vp-cB1" id="UQa-Bk-htZ"/>
                 <outlet property="tableView" destination="Afg-01-PdE" id="Zit-7E-y7p"/>
                 <outlet property="view" destination="iN0-l3-epB" id="xxT-bZ-Gng"/>
             </connections>

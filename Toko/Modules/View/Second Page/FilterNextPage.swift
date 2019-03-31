@@ -6,4 +6,12 @@
 //  Copyright © 2019 Sayyid Maulana. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class FilterNextPage: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+}

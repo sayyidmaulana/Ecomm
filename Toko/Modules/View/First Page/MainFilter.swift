@@ -11,16 +11,23 @@ import UIKit
 class MainFilter: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var buttonAdd: UIButton!
     
     private var cellId = "cellId"
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-   tableView.delegate = self
-   tableView.dataSource = self
-   tableView.separatorInset = UIEdgeInsetsMake(20, 12, 10, 12)
-   tableView.register(UINib(nibName: "SearchFilter", bundle: nil), forCellReuseIdentifier: cellId)
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.separatorInset = UIEdgeInsetsMake(20, 12, 10, 12)
+        tableView.register(UINib(nibName: "SearchFilter", bundle: nil), forCellReuseIdentifier: cellId)
+        navigationItem.title = "Search"
+        buttonAdd.addTarget(self, action: #selector(detailTab), for: .touchUpInside)
+    }
+    @objc func detailTab() {
+        let detailPush = FilterNextPage()
+        navigationController?.pushViewController(detailPush, animated: true)
     }
 }
 
@@ -28,7 +35,7 @@ extension MainFilter: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200.0
     }
-    // fungsi pindah halaman ke IssuesDetailController
+    // fungsi pindah halaman
 //    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 //        print("ID: \(self.detailResponse[indexPath.row].id)")
 //        let idDetail = self.detailResponse[indexPath.row].id
