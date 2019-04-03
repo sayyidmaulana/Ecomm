@@ -71,6 +71,14 @@
                     <constraint firstItem="nq8-FP-bOL" firstAttribute="leading" secondItem="Tnc-Ig-dO0" secondAttribute="leading" constant="10" id="vbZ-IS-6Q3"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="descItemDua" destination="Lts-bo-OfP" id="Ncs-3R-4Y0"/>
+                <outlet property="descItemSatu" destination="Kei-iL-r8o" id="r87-8d-s3L"/>
+                <outlet property="itemDua" destination="FrX-vk-onZ" id="9J8-7o-UhS"/>
+                <outlet property="itemSatu" destination="XCd-sz-8OJ" id="7jf-ZF-cY1"/>
+                <outlet property="priceItemDua" destination="XLX-FK-COF" id="woU-S5-3H8"/>
+                <outlet property="priceItemSatu" destination="dIr-cX-dJT" id="3DS-ky-ZcT"/>
+            </connections>
             <point key="canvasLocation" x="22.5" y="594.5"/>
         </tableViewCell>
     </objects>
